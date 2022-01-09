@@ -1,5 +1,5 @@
 <?php
-    require_once 'config/config.php';
+    require_once 'config/db.php';
     class model{
         //kiểm tra kết nối đến csdl
         public function connectDb() {
